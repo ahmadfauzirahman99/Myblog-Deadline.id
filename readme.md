@@ -61,6 +61,6 @@ These endpoints are also available as a [Postman](https://www.postman.com/) coll
 
 ## Author
 
-- [Nuruzzaman Milon](https://milon.im)
+- [AHMAD FAUZI RAHMAN](https://ahmadfauzirahman.im)
 
 Feel free to email me, if you have any question.
