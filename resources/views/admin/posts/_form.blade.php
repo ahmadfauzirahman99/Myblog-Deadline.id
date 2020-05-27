@@ -14,7 +14,7 @@
     {!! Form::label('body', 'Body', ['class' => 'col-md-2 control-label']) !!}
 
     <div class="col-md-8">
-        {!! Form::textarea('body', null, ['class' => 'form-control', 'required']) !!}
+        {!! Form::textarea('body', null, ['class' => 'form-control', "id"=>"elm1",'required']) !!}
 
         <span class="help-block">
             <strong>{{ $errors->first('body') }}</strong>

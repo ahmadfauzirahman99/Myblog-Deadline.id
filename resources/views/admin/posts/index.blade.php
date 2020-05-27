@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
         <div class="row">
 
             <div class="col-md-12">
@@ -19,7 +18,7 @@
                             <thead>
                                 <tr>
                                     <th>Title</th>
-                                    <th>Body</th>
+{{--                                    <th>Body</th>--}}
                                     <th>Author</th>
                                     <th>Category</th>
                                     <th>Tags</th>
@@ -31,7 +30,7 @@
                                 @forelse ($posts as $post)
                                     <tr>
                                         <td>{{ $post->title }}</td>
-                                        <td>{{ str_limit($post->body, 60) }}</td>
+{{--                                        <td>{{ str_limit($post->body, 60) }}</td>--}}
                                         <td>{{ $post->user->name }}</td>
                                         <td>{{ $post->category->name }}</td>
                                         <td>{{ $post->tags->implode('name', ', ') }}</td>
@@ -67,5 +66,4 @@
             </div>
 
         </div>
-    </div>
 @endsection
